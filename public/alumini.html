@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint Joseph EM High School</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Alumini</title>
+</head>
+<body>
+    <section id="home">
+        <nav class="nav-extended">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><i class="material-icons">school</i>ST. Joseph's</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="library.html">Library</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+              <li><a href="alumini.html">Alumini</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+        </nav>
+      
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="index.html" class="sidenav-close"> <i class="material-icons">home</i>Home</a></li>
+          <li><a href="library.html" class="sidenav-close"> <i class="material-icons">library_books</i>Library</a></li>
+          <li><a href="index.html#contact" class="sidenav-close"> <i class="material-icons">chat</i>Contact</a></li>
+          <li><a href="alumini.html" class="sidenav-close"> <i class="material-icons">group</i>Alumini</a></li>
+          <li><a href="gallery.html" class="sidenav-close"> <i class="material-icons">camera_alt</i>Gallery</a></li>
+        </ul>
+  </section>
+
+  <section>
+    <h4 class="center">Alumini</h4>
+    <div class="container">
+      <img src="./images1/student-banner.jpg" alt="Connect_img_comunity" style=" width:100%;">
+    </div>
+    <div class="row container_box" id="aluminiConnect">
+      <form id="aluminiform" class="col s12"  method="post">
+        <h5>Stay Connected</h5>
+        <p>Submit your details, to Stay Connected.</p>
+        <div class="row">
+             <div class="input-field col s12">
+              <label for="std_name">Student Name</label>
+              <input id="std_name" name="std_name" type="text" class="validate" required>
+             </div>
+             <div class="input-field col s12">
+              <label for="father_name">Father Name</label>
+              <input id="father_name" name="father_name" type="text" class="validate" required>
+            </div>
+            <div class="input-field col s12">
+              <select id="select_class" name="select_class">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="nursery">Nursery</option>
+                <option value="lkg">L.K.G</option>
+                <option value="ukg">U.K.G</option>
+                <option value="1">1st class</option>
+                <option value="2">2nd class</option>
+                <option value="3">3rd class</option>
+                <option value="4">4th class</option>
+                <option value="5">5th class</option>
+                <option value="6">6th class</option>
+                <option value="7">7th class</option>
+                <option value="8">8th class</option>
+                <option value="9">9th class</option>
+                <option value="10">10th class</option>
+              </select>
+              <label for="select_class">Select Highest class you studied.</label>
+            </div>
+            <div class="input-field col s12">
+              <select id="campus" name="campus">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="singarayakonda">Singarayakonda</option>
+                <option value="ulavapadu">Ulavapadu</option>
+              </select>
+              <label for="campus">Select Campus</label>
+            </div>
+            <div class="input-field col s12">
+                 <label for="number">Mobile Number</label>
+                 <input id="number" name="number" type="text" type="tel" inputmode="numeric" onkeyup="check()" pattern="[0-9]{10}"  maxlength="10" class="validate" required>
+                 <p id="message"></p>
+            </div>
+            <div class="input-field col s12">
+                 <label for="email">Email</label>
+                 <input id="email" name="email" type="email" class="validate" required>
+            </div>
+            <div class="input-field col s12">
+              <p>Upload profile pic for verfication.</p>
+              <p style="color: tomato;">*Max size 1mb</p>
+              <input class="btn waves-effect waves-light col l6 s7" id="profilepic" type="file" name="profilepic" accept="image/*" class="validate">
+            </div>
+
+        </div>
+
+        <button class="btn waves-effect waves-light" id="submitbtn" name="submitbtn" type="submit">Submit
+          <i class="material-icons right">send</i>
+        </button>
+        <p id="submit_msg" style="margin-top: 25px;"></p>
+      </form>
+    </div>
+  </section>
+  <section id="footer">
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s9">
+              <h5 class="white-text"><i class="small material-icons">format_quote</i> Grow Foster<i class="small material-icons">format_quote</i></h5>
+              <p class="grey-text text-lighten-4">- Our motto is to promote self-growth and encourage others to grow independently.</p><br>
+              <div>
+                <h5 class="white-text">Connect With Us.</h5>
+              <span><a href="mailto:stjosephskonda@gmail.com" target="_blank"><img src="./icons/mail.png" alt="mail_logo" class="icon"></a></span>
+              <span><a href="http://www.youtube.com/@SJSULAVAPADU" target="_blank"><img src="./icons/youtube.png" alt="youtube_log" class="icon"></a></span>
+              </div>
+            </div>
+            <div class="col l4 offset-l2 s3">
+              <h5 class="white-text">Quick Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#home">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="library.html">Library</a></li>
+                <li><a class="grey-text text-lighten-3" href="/index.html#contact">Contact</a></li>
+                <li><a class="grey-text text-lighten-3" href="alumini.html">Alumini</a></li>
+                <li><a class="grey-text text-lighten-3" href="gallery.html">Gallery</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container white-text">
+          © 2023 All Copyrights are reserved.
+          <a class="grey-text text-lighten-4 right" href="https://www.github.com/ramprasad-13" target="_blank">Designed by Ramprasad.</a>
+          </div>
+        </div>
+      </footer>
+</section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+ <!-- custom JavaScript -->
+ <script src="loader.js"></script>
+</html>

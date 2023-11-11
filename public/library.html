@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint Joseph EM High School</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Library</title>
+    <style>
+      .main,.book,.e_books,.eighth_books,.ninth_books,.tenth_books{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #ebooks,#eighth,#ninth,#tenth{
+        display: none;
+      }
+
+      .book{
+        width: 100%;
+        height: 100%;
+      }
+
+      .card{
+        height: 180px;
+        width: 200px;
+      }
+    </style>
+</head>
+<body>
+    <section id="home">
+        <nav class="nav-extended">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><i class="material-icons">school</i>ST. Joseph's</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="library.html">Library</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+              <li><a href="alumini.html">Alumini</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+        </nav>
+      
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="index.html" class="sidenav-close"> <i class="material-icons">home</i>Home</a></li>
+          <li><a href="library.html" class="sidenav-close"> <i class="material-icons">library_books</i>Library</a></li>
+          <li><a href="index.html#contact" class="sidenav-close"> <i class="material-icons">chat</i>Contact</a></li>
+          <li><a href="alumini.html" class="sidenav-close"> <i class="material-icons">group</i>Alumini</a></li>
+          <li><a href="gallery.html" class="sidenav-close"> <i class="material-icons">camera_alt</i>Gallery</a></li>
+        </ul>
+  </section>
+
+  <section class="main">
+   <div class="row container">
+    <h4 class="center">E-Library</h4>
+
+    <div class="card col l6 s12">
+      <div class="e_books">
+        <a href="#ebooks"><i class="material-icons large">book</i></a>
+        <h5>Ebooks</h5>
+      </div>
+    </div>
+    
+    <div class="card col l6 s12">
+      <div class="eighth_books">
+        <a href="#eighth"><i class="material-icons large">book</i></a>
+        <h5>8Th Text-Books</h5>
+      </div>
+    </div>
+
+    <div class="card col l6 s12">
+      <div class="ninth_books">
+        <a href="#ninth"><i class="material-icons large">book</i></a>
+        <h5>9Th Text-Books</h5>
+      </div>
+    </div>
+
+    <div class="card col l6 s12">
+      <div class="tenth_books">
+        <a href="#tenth"><i class="material-icons large">book</i></a>
+        <h5>10Th Text-Books</h5>
+      </div>
+    </div>
+   </div>
+  </section>
+
+
+  <section id="ebooks">
+    <div class="row container">
+      
+      <h3 class="center">E-Books</h3>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/ebooks/My-Experiments-With-Truth-MK-Gandhi.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>My Experiments With Truth.</h5>
+        </div>
+      </div>
+      
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/ebooks/The-Discovery-Of-India-Jawaharlal-Nehru.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>The Discovery Of India.</h5>
+        </div>
+      </div>
+  
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/ebooks/Wings-of-fire-pdf-free-download.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Wings Of Fire.</h5>
+        </div>
+      </div>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/ebooks/Three-mistakes-of-my-life-pdf.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Three Mistakes Of My Life.</h5>
+        </div>
+      </div>
+
+     </div>
+  </section>
+
+  <section id="eighth">
+    <div class="row container">
+      
+      <h3 class="center">8Th Text Books</h3>
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/8/telugu.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Telugu</h5>
+        </div>
+      </div>
+      
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/8/hindi.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Hindi</h5>
+        </div>
+      </div>
+  
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/8/english.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>English</h5>
+        </div>
+      </div>
+  
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/8/maths.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Maths</h5>
+        </div>
+      </div>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/8/biology.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Biology</h5>
+        </div>
+      </div>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/8/social.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Social</h5>
+        </div>
+      </div>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/8/physics.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Physics</h5>
+        </div>
+      </div>
+
+     </div>
+  </section>
+
+  <section id="ninth">
+
+    <div class="row container">
+      
+      <h3 class="center">9Th Text Books</h3>
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/9/telugu.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Telugu</h5>
+        </div>
+      </div>
+      
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/9/hindi.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Hindi</h5>
+        </div>
+      </div>
+  
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/9/english.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>English</h5>
+        </div>
+      </div>
+  
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/9/maths.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Maths</h5>
+        </div>
+      </div>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/9/biology.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Biology</h5>
+        </div>
+      </div>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/9/social.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Social</h5>
+        </div>
+      </div>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/9/physics.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Physics</h5>
+        </div>
+      </div>
+
+     </div>
+
+  </section>
+
+  <section id="tenth">
+
+    <div class="row container">
+
+      <h3 class="center">10Th Text Books</h3>
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/10/telugu.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Telugu</h5>
+        </div>
+      </div>
+      
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/10/hindi.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Hindi</h5>
+        </div>
+      </div>
+  
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/10/english.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>English</h5>
+        </div>
+      </div>
+  
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/10/maths.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Maths</h5>
+        </div>
+      </div>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/10/biology.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Biology</h5>
+        </div>
+      </div>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/10/social.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Social</h5>
+        </div>
+      </div>
+
+      <div class="card col l6 s12">
+        <div class="book">
+          <a href="./books/10/physics.pdf" target="_blank"><i class="material-icons large">book</i></a>
+          <h5>Physics</h5>
+        </div>
+      </div>
+
+     </div>
+  </section>
+
+  <section id="footer">
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s9">
+              <h5 class="white-text"><i class="small material-icons">format_quote</i> Grow Foster<i class="small material-icons">format_quote</i></h5>
+              <p class="grey-text text-lighten-4">- Our motto is to promote self-growth and encourage others to grow independently.</p><br>
+              <div>
+                <h5 class="white-text">Connect With Us.</h5>
+              <span><a href="mailto:stjosephskonda@gmail.com" target="_blank"><img src="./icons/mail.png" alt="mail_logo" class="icon"></a></span>
+              <span><a href="http://www.youtube.com/@SJSULAVAPADU" target="_blank"><img src="./icons/youtube.png" alt="youtube_log" class="icon"></a></span>
+              </div>
+            </div>
+            <div class="col l4 offset-l2 s3">
+              <h5 class="white-text">Quick Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#home">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="library.html">Library</a></li>
+                <li><a class="grey-text text-lighten-3" href="/index.html#contact">Contact</a></li>
+                <li><a class="grey-text text-lighten-3" href="alumini.html">Alumini</a></li>
+                <li><a class="grey-text text-lighten-3" href="gallery.html">Gallery</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container white-text">
+          © 2023 All Copyrights are reserved.
+          <a class="grey-text text-lighten-4 right" href="https://www.github.com/ramprasad-13" target="_blank">Designed by Ramprasad.</a>
+          </div>
+        </div>
+      </footer>
+</section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+ <!-- custom JavaScript -->
+ <script src="loader.js"></script>
+</html>

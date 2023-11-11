@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    scroll-padding-top: 60px;
+}
+
+.desktop_contacts .card-panel{
+   height: 450px;
+}
+
+.left_icon{
+    margin:10px 0;
+    margin-right: 10px;
+    float: left;
+}
+
+.mobile_contacts{
+    display: none;
+}
+.profile_info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline-icon {
+    vertical-align: bottom;
+    font-size: 18px !important;
+ }
+
+.profile{
+    width: 100%;
+    height: auto;
+}
+img{
+    padding: 0 10px;
+}
+
+.align-justify{
+    text-align: justify;
+}
+
+.card-title{
+    text-align: center;
+}
+.nav-extended{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+}
+body{
+    padding-top: 60px;
+    /* background-color: rgb(234, 24, 24); */
+}
+.page-footer,.nav-extended{
+    background-color: rgb(234, 24, 24) !important;
+    .material-icons{
+        color: aliceblue;
+    }
+}
+#about{
+    h1,h3{
+        font-family: 'Poppins', sans-serif;
+    }
+}
+.indicator-item{
+    background-color: black;
+}
+
+.center-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax_img1,.parallax_img2{
+    height: 680px;
+    width: min-content !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% auto;
+}
+
+.about-info{
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.carousel .carousel-item>img {
+    width: 100%;
+    height:70vh;
+}
+
+.quotations{
+    text-align: center;
+    
+}
+
+.icon{
+    width: 44px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .align-justify{
+        text-align: justify;
+    }
+    .parallax_img1,.parallax_img2{
+        height: 600px;
+        width: 150%;
+        background-attachment: fixed;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .parallax_img1,.parallax_img2 {
+        background-attachment: inherit;
+    }
+    .carousel .carousel-item>img {
+        width: 100%;
+       height:60vh;
+    }
+    .quotations{
+        text-align: center;
+    }
+    .brand-logo{
+        font-size: 1.8rem !important;
+    }
+
+    .mobile_contacts{
+        display: block;
+        height: 400px !important;
+    }
+
+    .desktop_contacts{
+        display: none;
+    }
+
+    .make_card{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile_container{
+        width: 96%;
+    }
+
+    .role{
+        padding-left: 22px;
+        color: white;
+    }
+
+}
+
+
+@media screen and (min-width: 768px){
+    .container_box{
+        width: 70%;
+    }
+}
