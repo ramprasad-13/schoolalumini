@@ -86,9 +86,9 @@ app.post("/addstudent",upload.single("profilepic"),async(req,res)=>{
             {
                 std_name:req.body.std_name,
                 father_name:req.body.father_name,
-                select_class:req.body.select_class,
+                class:req.body.select_class,
                 campus:req.body.campus,
-                number:req.body.number,
+                ph_number:req.body.number,
                 email:req.body.email,
                 profilepic:result.url,
                 approved:false
